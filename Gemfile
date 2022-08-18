@@ -73,3 +73,12 @@ end
 
 # Bootstrap 5 Ruby
 gem "bootstrap", "~> 5.2.0"
+
+# Add Active Admin
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
