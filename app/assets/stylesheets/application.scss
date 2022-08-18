@@ -1,6 +1,17 @@
 @import "bootstrap";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
-ul.nav {
-	i { width:24px; height:24px }
+header {
+	ul.nav i { width:24px; height:24px }
+	a:hover { text-shadow: #ccc 0 0 0.6rem }
+}
+
+main ul.products-list {
+	grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+	i.bi-camera {
+		display: block;
+		width: 7rem;
+		font-size: 7rem;
+		font-weight: lighter;
+	}
 }

@@ -1,1 +1,16 @@
-<h1>Welcome</h1>
+<h1>Product list</h1>
+
+<ul class="d-grid gap-3 list-group products-list">
+  <% @products.each do |product| %>
+    <li class="list-unstyled p-3 border rounded-3 g-col-4">
+      <i class="bi bi-camera text-light mx-auto"></i>
+      <h5 class="text-center mb-4"><%= product.name %></h5>
+      <div class="d-flex align-items-center justify-content-between">
+      <b>$<%= product.price %></b>
+      <%= link_to root_path, class: "btn btn-success" do %>
+        <i class="bi bi-cart-plus"></i>
+      <% end %>
+      </div>
+    </li>
+  <% end %>
+</ul>
