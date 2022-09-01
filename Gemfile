@@ -82,3 +82,5 @@ gem 'devise'
 gem 'cancancan'
 gem 'draper'
 gem 'pundit'
+
+gem "hotwire-rails", "~> 0.1.3"

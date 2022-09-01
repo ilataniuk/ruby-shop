@@ -17,3 +17,8 @@ main ul.products-list {
 	}
 
 }
+
+.table>:not(:first-child) {
+    border-top: 2px solid currentColor;
+}
+a:disabled * { opacity:0.2 } 
